@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body .chooseUserData {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  background: #020203;
+  padding: 32px;
+  border-radius: 10px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -70%);
+}
+body .chooseUserData form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 52px;
+}
+body .chooseUserData form label {
+  color: white;
+}
+body .chooseUserData h1 {
+  color: #E60000;
+}
+body .chooseUserData p {
+  color: white;
+}
+body .chooseUserData .custom-select {
+  background: #E60000;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+body .chooseUserData input[type=submit] {
+  padding: 15px;
+  border-radius: 10px;
+  background: #E60000;
+  color: white;
+  font-size: 24px;
+}
+
+/********************* couleurs et texte******************************************
+             primaire #9356DC secondaire #FF79DA tertiaire #99E2D0
+                           Texte Roboto
+**********************************************************************************/
+body {
+  margin: 0;
+  position: relative;
+  font-family: "Roboto";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  border: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.navBar, .menu-graph-bloc {
+  flex: 1;
+}
+
+.sportSee-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.sportSee-main h2 {
+  padding: 32px 0 0 70px;
+}
+.sportSee-main p {
+  padding: 0 0 32px 70px;
+}
+
+.spotSee-main-bloc {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sportSee-main-graph {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 28px;
+}
+.sportSee-main-graph .sportSee-main-grapBloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 21px;
+}
+
+.sportSee-main-right {
+  width: 22%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 39px;
+}
+.sportSee-main-right .sportSee-main-calories, .sportSee-main-right .sportSee-main-protein, .sportSee-main-right .sportSee-main-carbohydrate, .sportSee-main-right .sportSee-main-lipid {
+  width: 258px;
+  height: 124px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  background: #FBFBFB;
+}
+.sportSee-main-right .sportSee-main-calories .sportSee-main-calImg, .sportSee-main-right .sportSee-main-protein .sportSee-main-calImg, .sportSee-main-right .sportSee-main-carbohydrate .sportSee-main-calImg, .sportSee-main-right .sportSee-main-lipid .sportSee-main-calImg {
+  width: 60px;
+  height: 60px;
+  padding: 21px;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+.sportSee-main-right .sportSee-main-calories .sportSee-main-calImg img, .sportSee-main-right .sportSee-main-protein .sportSee-main-calImg img, .sportSee-main-right .sportSee-main-carbohydrate .sportSee-main-calImg img, .sportSee-main-right .sportSee-main-lipid .sportSee-main-calImg img {
+  width: 15px;
+}
+.sportSee-main-right .sportSee-main-calories .sportSee-main-calBloc, .sportSee-main-right .sportSee-main-protein .sportSee-main-calBloc, .sportSee-main-right .sportSee-main-carbohydrate .sportSee-main-calBloc, .sportSee-main-right .sportSee-main-lipid .sportSee-main-calBloc {
+  display: flex;
+  flex-direction: column;
+}
+.sportSee-main-right .sportSee-main-calories .sportSee-main-calBloc .sportSee-main-calNum, .sportSee-main-right .sportSee-main-protein .sportSee-main-calBloc .sportSee-main-calNum, .sportSee-main-right .sportSee-main-carbohydrate .sportSee-main-calBloc .sportSee-main-calNum, .sportSee-main-right .sportSee-main-lipid .sportSee-main-calBloc .sportSee-main-calNum {
+  width: 91px;
+  font-size: 20px;
+  margin-right: 51px;
+}
+.sportSee-main-right .sportSee-main-calories .sportSee-main-calBloc .sportSee-main-calText, .sportSee-main-right .sportSee-main-protein .sportSee-main-calBloc .sportSee-main-calText, .sportSee-main-right .sportSee-main-carbohydrate .sportSee-main-calBloc .sportSee-main-calText, .sportSee-main-right .sportSee-main-lipid .sportSee-main-calBloc .sportSee-main-calText {
+  font-size: 14px;
+}
+.sportSee-main-right .sportSee-main-calories .sportSee-main-calImg {
+  background: #ffcccc;
+}
+.sportSee-main-right .sportSee-main-protein .sportSee-main-calImg {
+  background: #e3f4ff;
+}
+.sportSee-main-right .sportSee-main-carbohydrate .sportSee-main-calImg {
+  background: #fdefb8;
+}
+.sportSee-main-right .sportSee-main-lipid .sportSee-main-calImg {
+  background: #ffe8ef;
+}
+
+.sportSee-activity {
+  width: 835px;
+}
+
+.sportSee-sessions, .sportSee-performance, .sportSee-score {
+  max-width: 258px;
+  max-height: 258px;
+  background: #FBFBFB;
+  border-radius: 5px;
+}
+
+.sportSee-activity-item {
+  margin: 5px;
+  padding: 5px;
+  background: #FBFBFB;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+  text-align: center;
+}
+
+.sportSee-sessions-item, .sportSee-performance-item, .sportSee-score-item {
+  margin: 5px;
+  padding: 5px;
+  background: #FBFBFB;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+}
+
+canvas {
+  width: 100%;
+}
+
+.navBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 31px;
+  font-size: 24px;
+  background: #020203;
+  color: white;
+}
+.navBar li:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0;
+  color: #E60000;
+}
+.navBar li {
+  max-width: 23%;
+  padding: 31px;
+  margin-left: 31px;
+}
+.navBar a {
+  color: white;
+}
+
+.menu-graph-bloc {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+.menu-graph-bloc .vertical-nav {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 31px;
+  background: #020203;
+}
+.menu-graph-bloc .vertical-nav li {
+  padding: 31px;
+}
+.menu-graph-bloc .vertical-nav a {
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
